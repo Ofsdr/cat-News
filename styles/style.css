@@ -1,3 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
+.header {
+  height: 100px;
+}
+.header .navbar {
+  display: flex;
+  padding: 15px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navbar .nav-logo img {
+  height: 60px;
+  width: auto;
+}
+.header .navbar .nav-links {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  list-style: none;
+}
+.header .navbar .nav-links a {
+  text-decoration: none;
+  font-size: 27px;
+  color: black;
+}
+.header .navbar .nav-links a:hover {
+  color: rgb(199, 185, 165);
+}
 
-/*# sourceMappingURL=style.css.map */
+.main-picture {
+  height: 500px;
+}
+.main-picture img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 40% 30%;
+     object-position: 40% 30%;
+}
+
+.text-main {
+  padding: 100px 100px 300px 100px;
+  text-align: center;
+}
+.text-main h2 {
+  font-weight: 700;
+  font-size: 80px;
+  padding: 20px;
+}
+.text-main p {
+  font-size: 25px;
+}
+
+.picture-of-cats {
+  background-color: gray;
+  height: 400px;
+}/*# sourceMappingURL=style.css.map */

@@ -2,3 +2,75 @@
   padding: 0;
   margin: 0;
 }
+.header {
+  
+  height: 100px;
+  .navbar {
+    display: flex;
+    padding: 15px 40px;
+     justify-content: space-between;
+     align-items: center;
+    .nav-logo {
+      img {
+        height: 60px;
+        width: auto;
+      }
+      
+    }
+    .nav-links {
+      display: flex;
+      
+      justify-content: end;
+      gap: 30px;
+      
+      list-style: none;
+      
+      a {
+        text-decoration: none;
+        font-size: 27px ;
+        color: black;
+        
+        &:hover {
+          
+          color:rgb(199, 185, 165);
+        }
+      }
+    }
+  }
+}
+.main-picture {
+  height: 500px;
+
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 40% 30%; 
+  }
+}
+.text-main {
+  padding: 100px 100px 300px 100px;
+   text-align: center;
+   h2 {
+    font-weight: 700;
+    font-size: 80px;
+    padding: 20px
+    
+
+   }
+   p {
+    font-size: 25px;
+   }
+}
+.picture-of-cats {
+  background-color: gray;
+  height: 400px;
+  .pic-column {
+
+  }
+}
+
