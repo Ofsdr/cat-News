@@ -4,7 +4,7 @@
 }
 
 .header {
-  height: 100px;
+  padding: 12px;
 }
 .header .navbar {
   display: flex;
@@ -61,5 +61,33 @@
 
 .picture-of-cats {
   background-color: gray;
-  height: 400px;
+  display: flex;
+}
+.picture-of-cats .pic-column {
+  -moz-columns: 3;
+       columns: 3;
+  justify-items: baseline;
+}
+.picture-of-cats .pic-column .col-up {
+  transform: translateY(-90px);
+}
+.picture-of-cats .pic-column .col-mid {
+  transform: translateY(30px);
+}
+.picture-of-cats .pic-column .col-down {
+  transform: translateY(120px);
+}
+.picture-of-cats .pic-column .col {
+  padding: 30px;
+  background-color: antiquewhite;
+}
+.picture-of-cats .pic-column .col img {
+  width: 300px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.picture-of-cats .pic-column .col p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
