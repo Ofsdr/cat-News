@@ -188,4 +188,40 @@
 .footer footer .cat-haven-l img {
   height: 105px;
   width: 125px;
+}
+
+.text-about {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.text-about h2 {
+  padding: 40px;
+  font-size: 80px;
+  text-align: center;
+  border-bottom: solid 1px black;
+}
+
+.about-title {
+  word-wrap: break-word;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 500px;
+}
+.about-title .little-description-A {
+  padding: 100px;
+  font-weight: 600;
+  font-size: 26px;
+  color: rgb(169, 169, 214);
+}
+.about-title h2 {
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+}
+.about-title p {
+  font-size: 27px;
+  width: 1000px;
 }/*# sourceMappingURL=style.css.map */
